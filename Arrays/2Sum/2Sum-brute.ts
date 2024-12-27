@@ -1,7 +1,7 @@
 //Time complexcity BigO(N^2)
 
 const numsArr: number[] = [2, 7, 11, 15];
-const target = 9;
+const target = 17;
 
 function TwoSum(nums: number[]) {
   // We will traverse over an array index one by one
