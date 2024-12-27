@@ -1,0 +1,132 @@
+
+1. Arrays
+- Two Sum
+- Best Time to Buy and Sell Stock
+- Maximum Subarray (Kadane's Algorithm)
+- Product of Array Except Self
+- Find the Duplicate Number
+- Container With Most Water
+- Move Zeroes
+
+2. Strings
+- Valid Anagram
+- Longest Substring Without Repeating Characters
+- String to Integer (atoi)
+- Palindrome Permutation
+- Rabin Karp Algorithm
+- Group Anagrams
+- Longest Palindromic Substring
+- Regular Expression Matching
+
+3. Linked Lists
+- Reverse Linked List
+- Detect Cycle in a Linked List (Floyd’s Tortoise and Hare)
+- Merge Two Sorted Lists
+- Linked List Cycle
+- Find the Middle of a Linked List
+- Intersection of Two Linked Lists
+- Add Two Numbers (Linked List)
+
+4. Stacks and Queues
+- Valid Parentheses
+- Daily Temperature
+- Evaluate Reverse Polish Notation
+- Largest Rectangle in Histogram
+- Min Stack
+- Implement Queue using Stacks
+- Sliding Window Maximum
+
+5. Hashing
+- Two Sum (HashMap)
+- Group Anagrams (HashMap)
+- Intersection of Two Arrays
+- Find All Duplicates in an Array
+- Subarray Sum Equals K
+- First Unique Character in a String
+- Longest Consecutive Sequence
+
+6. Trees
+- Binary Tree Inorder Traversal
+- Binary Tree Level Order Traversal
+- Invert/Reverse Binary Tree
+- Diameter of Binary Tree
+- Lowest Common Ancestor of a Binary Search Tree
+- Validate Binary Search Tree
+- Serialize and Deserialize Binary Tree
+- Construct Binary Tree from Preorder and Inorder Traversal
+- Path Sum
+
+7. Heaps (Priority Queues)
+- Kth Largest Element in an Array
+- Merge k Sorted Lists
+- Find Median from Data Stream
+- Top K Frequent Elements
+- Kth Smallest Element in a Sorted Matrix
+- Running Median
+- Rearrange String k Distance Apart
+
+8. Graphs
+- Depth First Search (DFS)
+- Breadth First Search (BFS)
+- Number of Islands
+- Clone Graph
+- Course Schedule (Topological Sort)
+- Find the Shortest Path in a Graph (Dijkstra’s Algorithm)
+- Detect a Cycle in a Directed Graph (Using DFS)
+- Word Ladder
+- Connected Components
+- Minimum Spanning Tree (Kruskal’s or Prim’s)
+
+9. Dynamic Programming (DP)
+- Fibonacci Sequence
+- Climbing Stairs
+- Longest Increasing Subsequence
+- 0/1 Knapsack Problem
+- Longest Common Subsequence
+- Coin Change Problem
+- House Robber Problem
+- Word Break
+- Partition Equal Subset Sum
+- Unique Paths
+
+10. Backtracking
+- Permutations
+- Combinations
+- Subsets
+- N-Queens Problem
+- Sudoku Solver
+- Word Search
+- Combination Sum
+
+11. Sorting
+- Merge Sort
+- Quick Sort
+- Heap Sort
+- Counting Sort
+- Radix Sort
+- Bucket Sort
+- Sort Colors (Dutch National Flag Problem)
+
+12. Bit Manipulation
+- Single Number
+- Hamming Distance
+- Counting Set Bits
+- Power of Two
+- Reverse Bits
+- Missing Number
+- Find the Two Non-Repeated Numbers in an Array
+
+13. Mathematics
+- Sieve of Eratosthenes (Prime Numbers)
+- Greatest Common Divisor (GCD)
+- Count Primes
+- Power of a Number
+- Permutations with Repeated Elements
+- Finding the Factorial of a Large Number
+
+14. Greedy Algorithms
+- Activity Selection Problem
+- Job Sequencing Problem
+- Fractional Knapsack Problem
+- Huffman Coding
+- Minimum Number of Coins
