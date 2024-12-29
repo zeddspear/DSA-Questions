@@ -1,3 +1,5 @@
+//Time complexcity BigO(N)
+
 // Given array of numbers and target value
 const _numsArr: number[] = [2, 7, 11, 15];
 const _target = 9;
