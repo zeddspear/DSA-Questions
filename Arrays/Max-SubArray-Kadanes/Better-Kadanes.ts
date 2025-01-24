@@ -12,16 +12,16 @@ function findMaxSubArr(numsArr: number[]) {
   for (let i = 0; i < numsArr.length; i++) {
     intervalSum += numsArr[i]; // Add the current element to the subarray sum
 
-    // If the subarray sum becomes negative or zero, reset the sum and move the start point
-    if (intervalSum <= 0) {
-      intervalSum = 0; // Reset the interval sum
-      start = i + 1; // Set the start to the next index
-    }
-
     // If the current subarray sum exceeds the max sum, update maxSum and the end point
     if (intervalSum > maxSum) {
       maxSum = intervalSum; // Update the maximum sum
       end = i; // Update the end index of the subarray
+    }
+
+    // If the subarray sum becomes negative or zero, reset the sum and move the start point
+    if (intervalSum <= 0) {
+      intervalSum = 0; // Reset the interval sum
+      start = i + 1; // Set the start to the next index
     }
   }
 
