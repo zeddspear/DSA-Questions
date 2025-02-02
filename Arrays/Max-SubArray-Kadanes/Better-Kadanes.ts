@@ -4,8 +4,7 @@ const numsArr: number[] = [-2, 1, -3, 4, -1, 2, 1, -5, 4]; // Input array of int
 
 function findMaxSubArr(numsArr: number[]) {
   let maxSum = Number.MIN_VALUE; // Initialize maxSum with the smallest possible value
-  let start = -1; // Variable to store the starting index of the maximum subarray
-  let ansStart = -1; // Variable to store the starting index of the maximum answer subarray
+  let ansStart = -1; // Variable to store the starting index of the maximum subarray
   let ansEnd = -1; // Variable to store the ending index of the maximum answer subarray
 
   let intervalSum = 0; // Variable to store the sum of the current subarray
@@ -13,7 +12,7 @@ function findMaxSubArr(numsArr: number[]) {
   // Iterate over the entire array to calculate maximum sum subarray
   for (let i = 0; i < numsArr.length; i++) {
     if (intervalSum === 0) {
-      start = i; // Set the start to i means its a new subArray start
+      ansStart = i; // Set the start to i means its a new subArray start
     }
 
     intervalSum += numsArr[i]; // Add the current element to the subarray sum
@@ -21,7 +20,6 @@ function findMaxSubArr(numsArr: number[]) {
     // If the current subarray sum exceeds the max sum, update maxSum and the end point
     if (intervalSum > maxSum) {
       maxSum = intervalSum; // Update the maximum sum
-      ansStart = start;
       ansEnd = i; // Update the end index of the subarray
     }
 
