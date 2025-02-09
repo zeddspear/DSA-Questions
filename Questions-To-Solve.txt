@@ -1,5 +1,8 @@
+Interview Coding Questions List
+=================================
 
 1. Arrays
+----------
 - Two Sum
 - Best Time to Buy and Sell Stock
 - Maximum Subarray (Kadane's Algorithm)
@@ -7,126 +10,152 @@
 - Find the Duplicate Number
 - Container With Most Water
 - Move Zeroes
+- Trapping Rain Water
+- Merge Intervals
+- Subarray Sum Equals K
 
 2. Strings
+----------
 - Valid Anagram
-- Longest Substring Without Repeating Characters
-- String to Integer (atoi)
-- Palindrome Permutation
-- Rabin Karp Algorithm
 - Group Anagrams
+- Longest Substring Without Repeating Characters
+- Minimum Window Substring
+- String to Integer (atoi)
 - Longest Palindromic Substring
+- Palindrome Permutation
 - Regular Expression Matching
+- Word Ladder
+- Edit Distance
 
 3. Linked Lists
-- Reverse Linked List
+---------------
+- Reverse Linked List (Iterative & Recursive)
 - Detect Cycle in a Linked List (Floyd’s Tortoise and Hare)
 - Merge Two Sorted Lists
-- Linked List Cycle
+- Remove Nth Node From End
 - Find the Middle of a Linked List
 - Intersection of Two Linked Lists
-- Add Two Numbers (Linked List)
+- Add Two Numbers
+- Reorder List
 
-4. Stacks and Queues
+4. Stacks & Queues
+------------------
 - Valid Parentheses
-- Daily Temperature
 - Evaluate Reverse Polish Notation
-- Largest Rectangle in Histogram
 - Min Stack
 - Implement Queue using Stacks
+- Daily Temperatures
+- Largest Rectangle in Histogram
 - Sliding Window Maximum
 
-5. Hashing
-- Two Sum (HashMap)
-- Group Anagrams (HashMap)
-- Intersection of Two Arrays
+5. Hash Tables
+--------------
+- Two Sum (Hash Table approach)
+- Group Anagrams (Hash Table approach)
+- Intersection of Two Arrays / Intersection II
 - Find All Duplicates in an Array
-- Subarray Sum Equals K
 - First Unique Character in a String
 - Longest Consecutive Sequence
 
-6. Trees
-- Binary Tree Inorder Traversal
-- Binary Tree Level Order Traversal
+6. Trees & Binary Trees
+-----------------------
+- Binary Tree Inorder Traversal (Recursive & Iterative)
+- Binary Tree Level Order Traversal (BFS)
 - Invert/Reverse Binary Tree
 - Diameter of Binary Tree
-- Lowest Common Ancestor of a Binary Search Tree
+- Lowest Common Ancestor (LCA) for Binary Tree and BST
 - Validate Binary Search Tree
 - Serialize and Deserialize Binary Tree
 - Construct Binary Tree from Preorder and Inorder Traversal
-- Path Sum
+- Path Sum / Sum Root to Leaf Numbers
 
 7. Heaps (Priority Queues)
+--------------------------
 - Kth Largest Element in an Array
 - Merge k Sorted Lists
 - Find Median from Data Stream
 - Top K Frequent Elements
 - Kth Smallest Element in a Sorted Matrix
-- Running Median
 - Rearrange String k Distance Apart
 
 8. Graphs
-- Depth First Search (DFS)
-- Breadth First Search (BFS)
+---------
+- Depth First Search (DFS) & Breadth First Search (BFS)
 - Number of Islands
 - Clone Graph
-- Course Schedule (Topological Sort)
-- Find the Shortest Path in a Graph (Dijkstra’s Algorithm)
-- Detect a Cycle in a Directed Graph (Using DFS)
+- Course Schedule (Cycle Detection / Topological Sort)
+- Topological Sort
 - Word Ladder
-- Connected Components
-- Minimum Spanning Tree (Kruskal’s or Prim’s)
+- Shortest Path in Unweighted Graph (BFS)
+- Dijkstra’s Algorithm (Weighted Graphs)
+- Detect a Cycle in a Directed Graph (DFS/BFS)
+- Minimum Spanning Tree (Prim’s and Kruskal’s)
+- Connected Components in a Graph
 
 9. Dynamic Programming (DP)
-- Fibonacci Sequence
+---------------------------
+- Fibonacci Sequence (Iterative / Recursive / DP)
 - Climbing Stairs
-- Longest Increasing Subsequence
+- Longest Increasing Subsequence (LIS)
 - 0/1 Knapsack Problem
-- Longest Common Subsequence
+- Longest Common Subsequence (LCS)
 - Coin Change Problem
-- House Robber Problem
-- Word Break
+- House Robber (and House Robber II)
+- Word Break (I & II)
 - Partition Equal Subset Sum
-- Unique Paths
+- Unique Paths (and Unique Paths II with obstacles)
+- Edit Distance (Levenshtein Distance)
+- Minimum Path Sum (Grid based)
 
 10. Backtracking
+----------------
 - Permutations
-- Combinations
-- Subsets
+- Combinations (n choose k)
+- Subsets (Power Set)
 - N-Queens Problem
 - Sudoku Solver
 - Word Search
-- Combination Sum
+- Combination Sum (I & II)
+- Generate Parentheses
 
-11. Sorting
+11. Sorting & Searching
+------------------------
 - Merge Sort
 - Quick Sort
-- Heap Sort
-- Counting Sort
-- Radix Sort
-- Bucket Sort
+- Binary Search & its Variants (e.g., Search in Rotated Sorted Array, Find Peak Element)
+- Quickselect (Kth Largest/Smallest Element)
 - Sort Colors (Dutch National Flag Problem)
+- Median of Two Sorted Arrays
+- Top K Frequent Elements (Alternate approaches: bucket sort, sorting)
 
 12. Bit Manipulation
-- Single Number
+--------------------
+- Single Number (I & II variants)
 - Hamming Distance
-- Counting Set Bits
+- Counting Set Bits (Brian Kernighan’s Algorithm)
 - Power of Two
 - Reverse Bits
 - Missing Number
 - Find the Two Non-Repeated Numbers in an Array
+- Number of 1 Bits (Population Count)
+- Bitwise AND of Numbers Range
 
-13. Mathematics
+13. Mathematics & Number Theory
+-------------------------------
 - Sieve of Eratosthenes (Prime Numbers)
-- Greatest Common Divisor (GCD)
+- Greatest Common Divisor (GCD using Euclid’s Algorithm)
 - Count Primes
-- Power of a Number
-- Permutations with Repeated Elements
-- Finding the Factorial of a Large Number
+- Factorial Trailing Zeroes
+- Permutations & Combinations
+- Fibonacci & Recurrence Relations
+- FizzBuzz
 
 14. Greedy Algorithms
-- Activity Selection Problem
-- Job Sequencing Problem
+---------------------
+- Activity Selection / Interval Scheduling
+- Job Sequencing with Deadlines
 - Fractional Knapsack Problem
 - Huffman Coding
-- Minimum Number of Coins
+- Gas Station Problem
+- Merge Intervals (greedy solution)
+- Meeting Rooms / Minimum Meeting Rooms
