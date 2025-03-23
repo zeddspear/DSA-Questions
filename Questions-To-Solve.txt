@@ -13,6 +13,8 @@ Interview Coding Questions List
 - Trapping Rain Water
 - Merge Intervals
 - Subarray Sum Equals K
+- Longest Subarray sums equals to k
+- Count Subarrays whose sums equals to k
 
 2. Strings
 ----------
