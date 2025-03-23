@@ -1,8 +1,8 @@
 // Time complexcity: BigO(N^2)
 
-let nums: number[] = [1, 1, 1];
+let nums: number[] = [1, 2, 3];
 
-let k = 2;
+let k = 3;
 function subArraySum(nums: number[]) {
   let totalSubArrays = 0;
 
