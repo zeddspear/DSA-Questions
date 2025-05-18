@@ -1,0 +1,7 @@
+    Input: s = "timetopractice", p = "toc"
+    Output: toprac
+    Explanation: "toprac" is the smallest substring in which "toc" can be found.
+
+    Input: s = "zoomlazapzo", p = "oza"
+    Output: apzo
+    Explanation: "apzo" is the smallest substring in which "oza" can be found.
